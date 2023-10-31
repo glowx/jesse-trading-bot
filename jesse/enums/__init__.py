@@ -15,6 +15,7 @@ class order_statuses:
     PARTIALLY_FILLED = 'PARTIALLY FILLED'
     QUEUED = 'QUEUED'
     LIQUIDATED = 'LIQUIDATED'
+    REJECTED = 'REJECTED'
 
 
 class timeframes:
@@ -71,6 +72,8 @@ class exchanges:
     BITGET_SPOT = 'Bitget Spot'
     BITGET_USDT_PERPETUAL = 'Bitget USDT Perpetual'
     BITGET_USDT_PERPETUAL_TESTNET = 'Bitget USDT Perpetual Testnet'
+    DYDX_PERPETUAL = "Dydx Perpetual"
+    DYDX_PERPETUAL_TESTNET = "Dydx Perpetual Testnet"
 
 
 class migration_actions:
